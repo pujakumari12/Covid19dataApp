@@ -1,0 +1,28 @@
+.links{
+	
+	overflow: hidden;
+	
+	text-align: center;
+	font-weight: bold;
+
+}
+.links:hover{
+	text-decoration: none;
+	color:#F2C508;
+}
+
+.navCustom{
+	background: navy !important;
+}
+
+.nav-wrapper ul{
+	float:right;
+}
+
+.logoutBtn{
+	padding: 20px 50px;
+    background: #0B1052 !important;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:0px 40px;
+}

@@ -1,0 +1,31 @@
+.cardCustom{
+	text-align: center;
+    padding: 20px 10px !important;
+    border-radius: 10px !important;
+    border: 1px solid #ABACAC;   
+    min-width: 170px;
+    min-height: 150px;
+    background: honeydew !important;
+}
+
+.CasesCont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.card-data{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.tableCont{
+	overflow: auto;
+	height: 100vh;
+}
+
+@media screen and (max-width: 800px){
+	.cardCustom{
+		width: 100% !important;		
+	}
+}
